@@ -49,13 +49,14 @@ header::after{
 
 .spazio {
   padding-right: 10px;
+  padding-top: 10px;
   border-right: 1px solid #666;
 }
 
 .contact {
   color: #666;
   font-size: 15px;
-  padding-left: 10px;
+  padding-left: 20px;
   font-family: Syne, sans-serif;
 }
 
@@ -214,8 +215,8 @@ main .get{
 /*Secondo blocco*/
 .secondocontenitore {
   background-color: #eaedef;
-  width: 100%;
-  padding :20px;
+  padding: 20px;
+  height: 2000px;
 }
 
 .middle-page-logo {
@@ -226,7 +227,8 @@ main .get{
 }
 
 .integrations h1,
-p {
+p,
+#layout h4 {
   color: #666666;
   font-family: Syne, sans-serif;
   text-align: center;
@@ -284,7 +286,8 @@ span {
   padding-left: 10px;
 }
 
-.crm i {
+.crm i,
+#layout i {
   font-size: 20px;
   color: #e66853;
   padding-top: 20px;
@@ -293,3 +296,67 @@ span {
 .crm hr {
   width: 300px;
 }
+
+#layout {
+  width: 305px;
+  height: 650px;
+  background-color: white;
+  border: 2px solid #e3f1f5;
+  border-radius: 2%;
+  margin-top: 50px;
+}
+
+.marketing {
+  float: left;
+  margin-left: 160px;
+  position: relative;
+}
+
+.marketing-hub,
+.sales-hub,
+.service-hub {
+  width: 150px;
+  height: 200px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  padding-top: 20px;
+}
+
+.sales {
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.sales {
+  position: relative;
+}
+
+.service {
+  float: left;
+}
+
+.service {
+  position: relative;
+}
+
+#layout h3,
+#layout p,
+#layout h4 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#layout i,
+#layout span {
+  padding: 5px
+}
+
+#layout .learn-more {
+  position: absolute;
+  left: 70px;
+  bottom: 0;
+}
+
+/*Terzo blocco*/
