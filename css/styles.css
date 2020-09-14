@@ -529,12 +529,49 @@ footer button {
   border: none;
 }
 
-.rif ul li {
+.rif ul li,
+.languages p {
   display: inline-block;
-  color: #33475b;
 }
 
 .rif ul li a i {
   color: white;
   padding: 10px;
+}
+
+.languages {
+  clear: both;
+  text-align: center;
+  padding: 10px;
+}
+
+.languages p {
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+.languages hr {
+  width: 76%;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.lastlogo {
+  margin-left: 12%;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+.lastp {
+  position: absolute;
+  bottom: 40px;
+  right: 12%;
+  display: inline-block;
+}
+
+.lastp p {
+  display: inline-block;
+  padding: 20px;
 }
