@@ -15,6 +15,11 @@ body {
   display: inline-block;
 }
 
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
 /*Intestazione*/
 /*Prima parte*/
 header .head {
@@ -40,25 +45,25 @@ header::after{
 }
 
 #world {
-  color: #666;
+  color: #33475b;;
   font-size: 20px;
 }
 
 .lingua {
  background-color: #e9eff5;
  border-style: none;
- color: #666;
+ color: #33475b;;
  font-size: 15px;
 }
 
 .spazio {
   padding-right: 10px;
   padding-top: 10px;
-  border-right: 1px solid #666;
+  border-right: 1px solid #33475b;;
 }
 
 .contact {
-  color: #666;
+  color: #33475b;;
   font-size: 15px;
   padding-left: 20px;
 }
@@ -119,13 +124,13 @@ header .sottohead {
 .software {
   background-color: white;
   border-style: none;
-  color: #666;
+  color: #33475b;
   font-size: 15px;
 }
 
 .pricing,
 .iniziocorpo p{
-  color: #666;
+  color: #33475b;
   font-size: 15px;
 }
 
@@ -155,7 +160,7 @@ main::after{
 }
 
 .iniziocorpo h1 {
-  color: #666666;
+  color: #33475b;
   font-size: 50px;
 }
 
@@ -207,7 +212,7 @@ main .primoblocco .get{
   top: 525px;
   left: 110px;
   font-size: 15px;
-  color: #666;
+  color: #33475b;
 }
 
 /*Secondo blocco*/
@@ -227,7 +232,7 @@ main .primoblocco .get{
 .integrations h1,
 .integrations p,
 #layout h4 {
-  color: #666666;
+  color: #33475b;
   text-align: center;
   padding-top: 20px;
 }
@@ -274,7 +279,7 @@ main .primoblocco .get{
 .crm h2,
 .crm h3,
 .crm span {
-  color: #666666;
+  color: #33475b;
   text-align: left;
   padding-top: 20px;
   padding-right: 50px;
@@ -303,7 +308,7 @@ main .primoblocco .get{
 
 #layout h3,
 #layout p {
-  color: #666
+  color: #33475b;
 }
 
 .marketing {
@@ -411,7 +416,7 @@ main .primoblocco .get{
 }
 
 .intro {
-  color: #666;
+  color: #33475b;
   line-height: 30px;
   padding-top: 80px;
   padding-left: 150px;
@@ -452,7 +457,7 @@ main .primoblocco .get{
 
 .growingwithhubspot h1,
 .growingwithhubspot p {
-  color: #666;
+  color: #33475b;
   padding-top: 20px;
   line-height: 30px;
 }
@@ -460,9 +465,76 @@ main .primoblocco .get{
 .growingwithhubspot {
   position: absolute;
   top: 350px;
-  left: 90px;
+  left: 180px;
 }
 
 .growingwithhubspot p {
   margin-top: 10px;
+}
+
+.woman img {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 350px;
+  right: 90px;
+}
+
+/*Footer*/
+footer {
+  width: 100%;
+  background-color: #33475b;
+  position: absolute;
+  top: 3700px;
+}
+
+footer::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer h5,
+footer p {
+  color: white;
+  font-size: 13px;
+}
+
+.primasezione,
+.secondasezione,
+.terzasezione,
+.quartasezione {
+  padding: 40px;
+  transform: translate(70%);
+}
+
+.primasezione,
+.secondasezione,
+.terzasezione,
+.quartasezione {
+  float: left;
+}
+
+footer h5 {
+  padding-bottom: 20px;
+}
+
+footer button {
+  margin-top: 20px;
+  padding: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #33475b;
+  background-color: white;
+  border-radius: 8%;
+  border: none;
+}
+
+.rif ul li {
+  display: inline-block;
+  color: #33475b;
+}
+
+.rif ul li a i {
+  color: white;
+  padding: 10px;
 }
