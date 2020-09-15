@@ -1,5 +1,4 @@
 /*Gneral style*/
-
 *{
   margin: 0;
   padding: 0;
@@ -17,7 +16,6 @@ body {
 
 ul li {
   list-style: none;
-  text-decoration: none;
 }
 
 /*Intestazione*/
@@ -25,7 +23,7 @@ ul li {
 header .head {
   width: 100%;
   height: 70px;
-  background-color: #e9eff5;
+  background-color: #f5f8fa;
   border-bottom: 2px solid #33475b;
 }
 
@@ -50,7 +48,7 @@ header::after{
 }
 
 .lingua {
- background-color: #e9eff5;
+ background-color: #f5f8fa;
  border-style: none;
  color: #33475b;;
  font-size: 15px;
@@ -83,18 +81,18 @@ header::after{
   font-size: 15px;
   padding: 5px;
   border-radius: 8%;
-  border-color: #e66853;
+  border-color: #ff7a59;
 }
 
 .login {
-  color: #e66853;
+  color: #ff7a59;
   background-color: white;
 }
 
 .gethub,
 .growingwithhubspot button {
   color: white;
-  background-color: #e66853;
+  background-color: #ff7a59;
   margin-left: 30px;
   border: none;
 }
@@ -185,7 +183,7 @@ main::after{
 .iniziocorpo .lightblue-string {
   height: 80px;
   width: 100%;
-  background-color: #71d4c6;
+  background-color: #a6e9e1;
   position: absolute;
   bottom: 8px;
   border-top: 3px solid #33475b;
@@ -193,7 +191,7 @@ main::after{
 
 main .get {
   color: white;
-  background-color: #e66853;
+  background-color: #ff7a59;
   padding: 5px;
   border-radius: 4%;
   width: 200px;
@@ -217,7 +215,7 @@ main .primoblocco .get{
 
 /*Secondo blocco*/
 .secondocontenitore {
-  background-color: #eaedef;
+  background-color: #f5f8fa;
   padding: 20px;
   height: 1400px;
 }
@@ -269,6 +267,13 @@ main .primoblocco .get{
   margin-bottom: 30px;
 }
 
+.crm span hr {
+  display: inline-block;
+  width: 400px;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
 .crm .learn-more {
   position: absolute;
   left: 50px;
@@ -309,6 +314,8 @@ main .primoblocco .get{
 #layout h3,
 #layout p {
   color: #33475b;
+  padding: 20px;
+  line-height: 20px;
 }
 
 .marketing {
@@ -364,11 +371,17 @@ main .primoblocco .get{
   bottom: 0;
 }
 
+#layout hr {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+}
+
 /*Terzo blocco*/
 .terzoblocco {
   width: : 100%;
   height: 700px;
-  background-color: #0d93b1;
+  background-color: #00aab7;
 }
 
 .terzoblocco h1,
@@ -379,12 +392,12 @@ main .primoblocco .get{
 }
 
 .terzoblocco .p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .logos img {
-  width: 70px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .logos h1,
@@ -394,19 +407,26 @@ main .primoblocco .get{
 }
 
 .boxes {
-  width: 100px;
-  height: 250px;
+  width: 110px;
+  height: 190px;
   float: left;
   margin-left: 190px;
   margin-top: 30px;
-  border-bottom: 1px solid white;
 }
 
 .boxes1 {
-  width: 100px;
-  height: 250px;
+  width: 110px;
+  height: 190px;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.boxes,
+.boxes1 {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  margin-right: 30px;
+  text-align: center;
 }
 
 /*Quarto blocco*/
@@ -432,27 +452,20 @@ main .primoblocco .get{
 
 .quartobloccologo img,
 .quartobloccologo1 img {
-  width: 150px;
+  width: 100px;
   height: 50px;
 }
 
 .quartobloccologo img{
   margin-top: 80px;
-  margin-left: 90px;
+  margin-left: 105px;
   float: left;
-  padding: 10px;
-
-}
-
-.quartobloccologo1 img {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .quartobloccologo1 {
   position: absolute;
   top: 200px;
-  right: 330px;
+  right: 190px;
 }
 
 .growingwithhubspot h1,
@@ -505,7 +518,7 @@ footer p {
 .terzasezione,
 .quartasezione {
   padding: 40px;
-  transform: translate(70%);
+  transform: translate(60%);
 }
 
 .primasezione,
